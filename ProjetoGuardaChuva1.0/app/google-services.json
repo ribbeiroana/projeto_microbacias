@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1041368207089",
+    "project_id": "microbacias-7eba8",
+    "storage_bucket": "microbacias-7eba8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041368207089:android:593183f2a5ab94258f6350",
+        "android_client_info": {
+          "package_name": "com.michelle.microbacias"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041368207089-5d4c8hjscfho7rclpkpqeq0h16d94gst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQh7Dtg6fwlYpnXU3HFq1pWAefRt9xJpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041368207089-5d4c8hjscfho7rclpkpqeq0h16d94gst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

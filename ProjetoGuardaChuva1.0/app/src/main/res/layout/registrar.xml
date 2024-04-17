@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/azul_roial"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastre-se"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/reg_nome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Nome Completo"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"/>
+
+        <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+
+        <EditText
+            android:id="@+id/reg_confirmeEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Confirme seu e-mail"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"/>
+
+    <EditText
+        android:id="@+id/reg_senha"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Senha"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <Button
+        android:id="@+id/btRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        app:cornerRadius="15dp"
+        android:backgroundTint="@color/azul_claro"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
